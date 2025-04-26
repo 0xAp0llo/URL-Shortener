@@ -42,17 +42,17 @@ python main.py <command> [options]
 
 ## 📝 Examples
 
-Shorten a URL:
+### Shorten a URL:
 ```bash
 python main.py shorten https://www.example.com/very/long/path/to/resource
 ```
 
-Use a custom short code:
+### Use a custom short code:
 ```bash
 python main.py shorten https://www.example.com -c example123
 ```
 
-Expand a shortened URL:
+### Expand a shortened URL:
 ```bash
 python main.py expand Abc123
 ```
@@ -61,12 +61,12 @@ or
 python main.py expand http://short.url/Abc123
 ```
 
-List all shortened URLs:
+### List all shortened URLs:
 ```bash
 python main.py list
 ```
 
-Delete a shortened URL:
+### Delete a shortened URL:
 ```bash
 python main.py delete Abc123
 ```
