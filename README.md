@@ -35,7 +35,7 @@ python main.py <command> [options]
 
 ## ⚙️ Commands
 
-shorten: Shorten a URL
+- `shorten`: Shorten a URL
 expand: Expand a shortened URL
 list: List all shortened URLs
 delete: Delete a shortened URL
